@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	int n;
-	scanf("%d",&n);
+	scanf("%d",&n); //시간 초과 문제로 scanf와 pirntf, \n을 사용.
 
 	const int size = 10001;
 
