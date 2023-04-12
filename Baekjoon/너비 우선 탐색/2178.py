@@ -13,7 +13,7 @@
 #   - mp = int[][]
 #   - chk = int[][]
 #   - Queue : BFS
-
+~
 import sys
 input=sys.stdin.readline
 
