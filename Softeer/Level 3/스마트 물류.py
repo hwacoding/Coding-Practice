@@ -68,7 +68,7 @@ while 1:
             index=p-K
             # print(S)
 
-        # print(S)
+        print(S)
         for i in range(len(S)):
             if S.count('H')==0:
                 break
