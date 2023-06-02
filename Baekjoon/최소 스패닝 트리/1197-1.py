@@ -30,7 +30,7 @@ heap=[[0,1]] # 1번 노드부터 시작
 res=0
 
 while heap:
-    ew,ev=heapq.heappop(heap) # 방문할 노드와 비용
+    ew,ev=heapq.heappop(heap) # 방문할 노드와 비용(최솟값)
     
     if chk[ev]==False:
         chk[ev]=True

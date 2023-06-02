@@ -40,7 +40,8 @@ while heap:
     # ev까지 왔을 때의 총 비용 값 = ew
     if dist[ev] < ew: continue # 시간을 줄이고자 현재 거리가 다음 비용 더하는 것보다 작으면 할 필요 없다.
     # --★ 여러 경로를 통해 오게 된 현재 위치까지의 거리가 이미 구해둔 거리보다 짧으면, for문 넘어간다. ★--
-
+    # ew=before_dist[nv]
+    
     for nw,nv in edge[ev]:
         if dist[nv]>ew+nw:
             dist[nv]=ew+nw
